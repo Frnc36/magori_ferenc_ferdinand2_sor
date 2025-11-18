@@ -172,3 +172,10 @@ table *{
 table{
     margin: 10px;
 }
+
+@media only screen and (max-width: 700px) {
+    main *{
+        /* grid-template-columns: 1fr; */
+        display: block; /* ugyan az a felette, egymás alatt lesznek */
+    }
+}
