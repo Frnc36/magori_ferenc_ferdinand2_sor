@@ -149,3 +149,26 @@ a:link{
     color: pink;
 } 
 */
+
+
+tr:nth-child(even) { /* páros vagy páratlan, 0tól számol attól függ */
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: black;
+}
+
+table, tr, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table *{
+    font-size: 120%;
+}
+
+table{
+    margin: 10px;
+}
